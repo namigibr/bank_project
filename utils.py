@@ -56,8 +56,3 @@ def operations_short_check(data):
                               f"{name_to} {hide_recipient_account(numbers_to)}\n"
                               f"{operation['operationAmount']['amount']} {operation['operationAmount']['currency']['name']}")
     return '\n\n'.join(short_info)
-
-
-data = load_file()
-data = sort_data(data)
-print(operations_short_check(data))
