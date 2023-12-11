@@ -4,3 +4,4 @@ venv
 pyproject.toml
 poetry.lock
 info
+operations.json
