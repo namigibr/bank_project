@@ -4,7 +4,7 @@ import re
 
 
 def load_file():
-    with open('operations.json', 'r', encoding='Utf-8') as file:
+    with open('../operations.json', 'r', encoding='Utf-8') as file:
         return json.load(file)
 
 
